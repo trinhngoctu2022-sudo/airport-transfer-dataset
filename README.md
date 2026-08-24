@@ -7,7 +7,7 @@
 **17 routes · 3 cities · 25 fields · every price traced to a named source**
 
 <!-- TODO: thay bằng tên bạn + link LinkedIn nếu có -->
-Built by [Your Name] · Last verified: August 2026
+Built by Trịnh Ngọc Tú · Last verified: August 2026
 
 ---
 
@@ -223,3 +223,8 @@ first-time-traveller destinations. Not a complete map of either city.
 
 Data compiled from publicly available sources, each cited per row. Please retain
 attribution and the `last_updated` dates if you reuse it.
+## License
+
+MIT License — see [LICENSE](LICENSE).
+
+Data compiled from publicly available sources...
