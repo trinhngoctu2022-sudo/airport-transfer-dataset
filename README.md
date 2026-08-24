@@ -1,13 +1,10 @@
 # Airport Transfer Cost Dataset — Southeast & East Asia
 
-> A hand-verified dataset of airport-to-city transport options in Bangkok, Seoul, and
-> Singapore, built for travellers who need to know what a transfer will actually cost —
-> and what happens when they land at 1 a.m.
+> A hand-verified dataset of airport-to-city transport options in Bangkok, Seoul, and Singapore, built for travellers who need to know what a transfer will actually cost — and what happens when they land at 1 a.m.
 
 **17 routes · 3 cities · 25 fields · every price traced to a named source**
 
-<!-- TODO: thay bằng tên bạn + link LinkedIn nếu có -->
-Built by Trịnh Ngọc Tú · Last verified: August 2026
+Built by Trịnh Ngọc Tú · Last verified: August 2026 https://www.linkedin.com/in/trinhngoctulady/
 
 ---
 
