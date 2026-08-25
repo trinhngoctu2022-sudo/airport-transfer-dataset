@@ -42,7 +42,7 @@ cost 8.9× more to get out of the airport.**
 |---|---|---|
 | Seoul | 14.5× | 3.6× |
 | Bangkok | 13.3× | 3.3× |
-| Singapore | 11.0× | 2.8× |
+| Singapore | 10.0× | 2.5× |
 
 Singapore penalises the convenience-seeker least, which tracks with it having the
 strongest public transport of the three.
@@ -56,13 +56,20 @@ train with stairs and no luggage rack. The gap collapses from 8.9× to 2.2×.
 
 This finding is only visible because the schema distinguishes `per_person` from
 `per_vehicle` pricing — see [Schema decisions](#schema-decisions).
+![Cost per person by group size](group_size_comparison.png)
 
-**4. Language difficulty correlates with price uncertainty — tentatively.**
+**4. Price spread has two different causes — and they look identical in the data.**
 
-Routes scored 2–3 on `language_difficulty_1_5` (self-service machines, fixed fares) have a
-price spread of 1.0 — the price is the price. Routes scored 4 (verbal negotiation with a
-driver) spread to 1.38–1.67. The hypothesis is that *not speaking the local language is a
-measurable cost*, not just an inconvenience.
+Routes scored 2–3 on `language_difficulty_1_5` (self-service machines, fixed fares) have
+the narrowest spreads: 1.00–1.14. The price is the price.
+
+Both ends of the scale spread wider, for opposite reasons. Routes scored 4 (verbal
+negotiation) spread to 1.38 — uncertainty from not sharing a language. But routes scored 1
+(ride-hailing apps) spread furthest, to 1.53 — not from any language barrier, but from
+surge pricing algorithms.
+
+Two mechanisms, one number. Reading the spread alone would have led to the wrong
+conclusion. 
 
 **With 17 rows this is a hypothesis, not a conclusion.** Some cells hold only one or two
 routes. Testing it properly needs more cities.
